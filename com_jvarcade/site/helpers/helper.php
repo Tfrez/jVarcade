@@ -306,7 +306,7 @@ class jvaHelper {
 				}
 				
 			}
-			$_avatar = $_avatar ? '<img src="' . $_avatar . '" border="0" height="50" width="50" align="middle" />' : '' ;
+			$_avatar = $_avatar ? '<img border="0" height="50" width="50" align="middle" src="' . $_avatar . '"  />' : '' ; : '' ;
 			$jva_avatars[(int)$userid] = $_avatar;
 			
 		}
